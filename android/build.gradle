@@ -92,7 +92,7 @@ repositories {
 dependencies {
   api appProject
   implementation platform("com.google.firebase:firebase-bom:${ReactNative.ext.getVersion("firebase", "bom")}")
-  implementation "com.google.firebase:firebase-iid" 
+  implementation "com.google.firebase:firebase-iid:21.1.0" 
 }
 
 ReactNative.shared.applyPackageVersion()
